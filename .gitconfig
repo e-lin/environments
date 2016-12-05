@@ -1,0 +1,27 @@
+[color]
+	ui = true
+[user]
+	email = e-lin@groovenauts.jp
+	name = Elsa
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ld = log --decorate --graph
+	lf = log --pretty=fuller --decorate --graph
+	s = status
+	b = branch
+	amd = commit -a --amend
+	cm = commit --amend
+	co = commit
+	ca = commit -a
+	ck = checkout
+	rb = rebase
+	ri = rebase -i
+	ra = rebase --abort
+	rc = rebase --continue
+	cp = cherry-pick
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/elsalin/.gitignore_global
+[url "git@github.com:"]
+	insteadOf = https://github.com/
